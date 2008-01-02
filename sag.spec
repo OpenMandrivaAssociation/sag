@@ -7,6 +7,7 @@ Group:		Books/Computer books
 URL:		http://www.linuxdoc.org/LDP/sag/
 Source:		sag-0.6.2-html.tar.bz2
 BuildArch:	noarch
+Buildroot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 The Linux Documentation Project's System Administrators' Guide, provided in
