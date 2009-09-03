@@ -1,7 +1,7 @@
 Summary:	The LDP's System Administrators' Guide in HTML format
 Name:		sag
 Version:	0.7.0
-Release:	%mkrel 7
+Release:	%mkrel 8
 License:	distributable
 Group:		Books/Computer books
 URL:		http://www.linuxdoc.org/LDP/sag/
