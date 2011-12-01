@@ -22,13 +22,13 @@ System Administrators' Guide on your own machine.
 %prep
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
-mkdir -p $RPM_BUILD_ROOT%{_docdir}/LDP/sag
-tar -jxf %{SOURCE0} -C $RPM_BUILD_ROOT%{_docdir}/LDP/sag
+mkdir -p %{buildroot}%{_docdir}/LDP/sag
+tar -jxf %{SOURCE0} -C %{buildroot}%{_docdir}/LDP/sag
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
